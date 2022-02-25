@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Playground</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./root.css" />
+        <link rel="stylesheet" href="./styles.css" />
+        <!-- <link rel="stylesheet" href="./other.css" /> -->
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-sidebar-section">
+                <svg
+                    class="icon"
+                    js-sidebar-button
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1"
+                    viewBox="0 0 24 24"
+                >
+                    <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                </svg>
+                <a href="#">
+                    <h2 class="title">WEBSITENAME</h2>
+                </a>
+            </div>
+        </div>
+        <div class="main-scroll">
+            <main class="container-main">
+                <aside class="sidebar" js-sidebar>
+                    <div class="sidebar-top">
+                        <img
+                            class="profile_image"
+                            src="./dai.png"
+                            alt="Profile Image"
+                        />
+                        <div class="profile_title hide">Account</div>
+                        <div class="profile_username hide">MyNick</div>
+                    </div>
+                    <div class="sidebar-middle">
+                        <ul class="sidebar-list">
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Dashboard</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Content</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Playlists</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Analytics</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Comments</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Subtitles</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Copyright</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Monetization</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Customization</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Audio Library</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-bottom">
+                        <ul class="sidebar-list">
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Settings</h3>
+                            </li>
+                            <li class="card">
+                                <svg
+                                    class="icon"
+                                    viewBox="0 0 256 296"
+                                    preserveAspectRatio="xMidYMid"
+                                >
+                                    <g>
+                                        <path
+                                            d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                            fill="#f3eff5"
+                                        ></path>
+                                    </g>
+                                </svg>
+                                <h3 class="hide">Send Feedback</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                <div class="container-content">
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsa magnam vitae beatae, facere commodi esse,
+                            distinctio quam deleniti veritatis suscipit
+                            inventore. Nihil similique earum debitis dicta
+                            eligendi. Impedit, eos maxime aspernatur quae nobis,
+                            nemo soluta ea dolores illum voluptatum dolore qui
+                            magni iste cupiditate odit autem libero? Ex ipsa
+                            consectetur dicta, maxime deleniti vero repudiandae
+                            possimus quam hic rerum voluptates iste quod facere
+                            necessitatibus dolores nisi sequi ipsum quisquam.
+                            Qui ullam ab dignissimos inventore, recusandae, eos
+                            ipsam, nemo ducimus voluptas expedita corrupti
+                            soluta ex dolorum et eligendi sed. Veritatis, fugit
+                            voluptatibus laboriosam dolorum exercitationem nisi
+                            saepe soluta neque architecto doloremque?
+                        </p>
+                        <div class="box-prop"></div>
+                        <div class="box-prop"></div>
+                        <div class="box-prop"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsa magnam vitae beatae, facere commodi esse,
+                            distinctio quam deleniti veritatis suscipit
+                            inventore. Nihil similique earum debitis dicta
+                            eligendi. Impedit, eos maxime aspernatur quae nobis,
+                            nemo soluta ea dolores illum voluptatum dolore qui
+                            magni iste cupiditate odit autem libero? Ex ipsa
+                            consectetur dicta, maxime deleniti vero repudiandae
+                            possimus quam hic rerum voluptates iste quod facere
+                            necessitatibus dolores nisi sequi ipsum quisquam.
+                            Qui ullam ab dignissimos inventore, recusandae, eos
+                            ipsam, nemo ducimus voluptas expedita corrupti
+                            soluta ex dolorum et eligendi sed. Veritatis, fugit
+                            voluptatibus laboriosam dolorum exercitationem nisi
+                            saepe soluta neque architecto doloremque? Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur tempora quas itaque unde accusamus magni!
+                            Voluptate veniam dolores illo quam ut. Quisquam
+                            molestias ab deleniti dolorem, pariatur maiores
+                            itaque, quas illum quam cumque temporibus dicta
+                            dolores perferendis et eligendi. Exercitationem
+                            itaque facilis sint, sit deleniti libero minus fugit
+                            fuga aliquam sapiente totam excepturi, corporis,
+                            soluta animi maxime praesentium modi corrupti saepe?
+                            Fugit animi voluptate numquam. Autem, aliquid a
+                            nobis ipsum fugit maiores, officia voluptate tempore
+                            magnam perferendis, dignissimos quidem modi? Sed
+                            omnis dicta consectetur quas eaque, voluptatum
+                            aliquam velit porro unde quibusdam, officia
+                            perspiciatis et maiores rem dolores corrupti at
+                            labore animi inventore sint quis laboriosam
+                            doloremque! Excepturi non, nesciunt dolorum quod
+                            assumenda deleniti possimus natus veritatis eveniet
+                            ducimus expedita molestiae, rem quo! Consequuntur
+                            reiciendis velit, voluptatum, modi molestiae sequi
+                            consectetur nesciunt neque sit excepturi cum quas
+                            distinctio officiis fugiat non laborum illum
+                            similique dolorem commodi, maiores quidem! Minima
+                            eveniet fugiat quisquam quas libero distinctio magni
+                            velit omnis vitae, voluptates tenetur assumenda
+                            debitis nulla qui delectus praesentium eum dicta
+                            architecto doloremque laboriosam minus, doloribus
+                            eos consequatur asperiores. Aliquam, eius accusamus
+                            repellat hic, suscipit est quisquam eos sapiente
+                            repellendus, perspiciatis asperiores facilis!
+                            Perspiciatis laborum accusantium ullam ab in illo
+                            deserunt, impedit cupiditate accusamus cumque sed
+                            repudiandae possimus? Quia ut, aut a ipsam et quas
+                            reiciendis nulla sit ad. Fuga adipisci mollitia vel
+                            hic ratione excepturi quod natus necessitatibus
+                            quibusdam, nobis nemo delectus debitis sapiente,
+                            pariatur molestiae facere quae numquam aperiam.
+                            Cumque odio perspiciatis accusantium esse ipsa
+                            reprehenderit, sit praesentium laudantium id saepe
+                            ipsum maxime possimus sint consequuntur sed harum
+                            autem et exercitationem quam aliquam dolore commodi,
+                            temporibus repellendus. Optio, rem sint. Omnis earum
+                            ipsum totam hic quos vel odit eveniet, dolorem sequi
+                            iusto temporibus nisi voluptates officiis at sed
+                            recusandae sunt maxime cupiditate quis iste eaque,
+                            minus optio eius. Reiciendis, magnam.
+                        </p>
+                        <div class="box-prop"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsa magnam vitae beatae, facere commodi esse,
+                            distinctio quam deleniti veritatis suscipit
+                            inventore. Nihil similique earum debitis dicta
+                            eligendi. Impedit, eos maxime aspernatur quae nobis,
+                            nemo soluta ea dolores illum voluptatum dolore qui
+                            magni iste cupiditate odit autem libero? Ex ipsa
+                            consectetur dicta, maxime deleniti vero repudiandae
+                            possimus quam hic rerum voluptates iste quod facere
+                            necessitatibus dolores nisi sequi ipsum quisquam.
+                            Qui ullam ab dignissimos inventore, recusandae, eos
+                            ipsam, nemo ducimus voluptas expedita corrupti
+                            soluta ex dolorum et eligendi sed. Veritatis, fugit
+                            voluptatibus laboriosam dolorum exercitationem nisi
+                            saepe soluta neque architecto doloremque? Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit.
+                            Deleniti, ex a? In itaque saepe ratione laborum enim
+                            natus deleniti deserunt repudiandae laudantium
+                            tempora. Consequuntur dolorum ullam assumenda, quo
+                            nam dignissimos, earum neque incidunt quasi, ea
+                            laborum unde tempore. Repellendus ipsum sequi ipsam,
+                            repudiandae cum quidem dolor alias. Necessitatibus
+                            voluptatum reiciendis nemo sed recusandae
+                            exercitationem, libero vel repudiandae similique
+                            est! Soluta corporis tempora consequatur incidunt
+                            laborum hic provident rerum reiciendis perferendis
+                            earum, saepe necessitatibus impedit maiores, porro
+                            optio dolor veritatis ex sunt accusantium omnis
+                            officia obcaecati vitae doloribus! Atque animi
+                            reprehenderit, enim eligendi distinctio quia dolorem
+                            quis, quasi dolorum, ullam perferendis modi possimus
+                            maiores unde tenetur ipsa magni quisquam? Odit
+                            aspernatur, sunt dolores quidem quod sit nihil harum
+                            aliquid, necessitatibus rem excepturi? Incidunt
+                            inventore, quia temporibus neque tenetur maxime sed
+                            vel. Fugiat ea nam voluptas. Sed repudiandae vel
+                            officia in maxime, iste facilis provident debitis
+                            quasi omnis blanditiis modi, quae, beatae ratione
+                            animi quibusdam qui! Velit sit impedit sunt, harum,
+                            repudiandae cumque laborum explicabo distinctio esse
+                            quibusdam nam accusantium id magnam excepturi. Enim
+                            optio, ipsa nam neque iure cupiditate doloribus
+                            voluptatem praesentium repudiandae eligendi unde
+                            possimus ex et alias tempore magni in quo cum quam
+                            voluptatum consequatur deserunt voluptas incidunt
+                            aliquid. Ad incidunt sunt asperiores, nulla mollitia
+                            dolores aliquam repudiandae ab minima! Itaque,
+                            magnam et accusantium quae animi minima ad
+                            repellendus commodi placeat voluptatem autem error
+                            quos alias deserunt similique. Alias ea neque fugit
+                            laudantium cupiditate, esse in, obcaecati dolorem
+                            labore ad sunt aperiam eligendi explicabo aliquid
+                            dicta et excepturi! Expedita cum veniam dignissimos
+                            ipsam rerum et, deserunt, impedit laudantium
+                            numquam, porro explicabo. Quos dolorem, possimus
+                            mollitia nihil sapiente maiores non tempora
+                            quibusdam molestias aperiam expedita magni similique
+                            inventore excepturi molestiae reiciendis dicta
+                            magnam est ea quod eligendi. Est doloribus
+                            consequatur sequi maiores in commodi explicabo nisi
+                            laborum voluptates itaque dicta quas officiis
+                            incidunt, dignissimos, cum hic! Eius, vero. Maiores
+                            natus iste nobis, dolores est, ratione veniam
+                            aliquid maxime minus quibusdam delectus a quam
+                            praesentium, eveniet atque animi nostrum earum quae
+                            voluptates beatae illo cumque doloribus perspiciatis
+                            placeat. Inventore quisquam, voluptatibus iure
+                            voluptates accusantium ipsam explicabo, id hic
+                            dolorum fugit itaque, quo tempora officiis est. Id
+                            reiciendis quam, nostrum in quo ducimus cum placeat
+                            eius labore magnam odio? Cumque libero harum fugit
+                            enim provident aperiam est aspernatur. Quo et libero
+                            tempore sit non modi dolor porro dolores mollitia?
+                            Ipsam recusandae, ut in, facere vel beatae ab
+                            tempore minus numquam doloremque vero!
+                        </p>
+                    </div>
+                    <div class="footer"></div>
+                </div>
+            </main>
+        </div>
+        <script src="./scripts.js" async defer></script>
+    </body>
+</html>
+
+<!-- <svg
+                            class="icon"
+                            viewBox="0 0 256 296"
+                            preserveAspectRatio="xMidYMid"
+                        >
+                            <g>
+                                <path
+                                    d="M115.497674,261.08837 L115.497674,154.478845 L23.8139535,101.729261 L23.8139535,162.501763 L65.8104558,186.8486 L65.8104558,232.549219 L115.497674,261.08837 Z M139.311628,261.714907 L189.916577,232.563707 L189.916577,185.779949 L232.186047,161.285235 L232.186047,101.27387 L139.311628,154.895035 L139.311628,261.714907 Z M219.971965,80.8276886 L171.155386,52.5391067 L128.292316,77.4106841 L85.1040206,52.5141067 L35.8521355,81.1812296 L127.765737,134.063073 L219.971965,80.8276886 Z M0,222.211907 L0,74.4948807 L127.986799,0 L256,74.1820085 L256,221.978632 L127.983954,295.72283 L0,222.211907 Z"
+                                    fill="#f3eff5"
+                                ></path>
+                            </g>
+                        </svg> -->
