@@ -5,7 +5,7 @@
     --sidebar--width: calc(var(--header--padding-h) * 9);
     --icon--size: var(--header--padding-h);
     --content--padding: 1rem;
-    --sidebar--animation-duration: 200ms;
+    --sidebar--animation-duration: 300ms;
     --sidebar-animation-curve: ease-in-out;
 }
 /* ------------------------------ Main Sections ----------------------------- */

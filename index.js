@@ -28,3 +28,12 @@ Array.from(sidebarList).map((list) => {
         });
     });
 });
+
+// const content = document.getElementsByClassName("content");
+
+// const other = document.getElementById("other");
+// other.addEventListener("click", () => {
+//     console.log("Hi");
+//     content.innerHTML =
+//         '<object type="text/html" data="./pages/Other.html" ></object>';
+// });
