@@ -12,13 +12,15 @@
     /* Colors */
     --neutral--clr-900: #0e0e0e;
     --neutral--clr-800: #1f2731;
-    --neutral--clr-600: #243b4b;
+    --neutral--clr-700: hsl(205, 35%, 17%);
+    --neutral--clr-600: #243b4c;
+    --neutral--clr-500: hsl(205, 35%, 27%);
+    --neutral--clr-400: #d6edff;
     --neutral--clr-300: hsl(280, 23%, 85%);
     --neutral--clr-100: hsl(280, 23%, 95%);
 
     --primary--clr-600: #14cc98;
 
-    --secondary--clr-600: #5e548e;
     --secondary--clr-accent-400: #7c48c2;
 
     --tertiary--clr-400: #e56399;

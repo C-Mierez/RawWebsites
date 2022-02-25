@@ -218,22 +218,33 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding-left: var(--header--padding-h);
 }
 
-.sidebar .sidebar-middle .card,
-.sidebar .sidebar-bottom .card {
+.sidebar .card {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
 
     padding: 0.5rem 0;
+    padding-left: var(--header--padding-h);
     gap: var(--icon--size);
+
+    transition: background var(--sidebar--animation-duration)
+        var(--sidebar-animation-curve);
 }
 
 .sidebar .card h3 {
     opacity: 0.8;
+}
+
+.sidebar .card:hover {
+    background: var(--neutral--clr-500);
+}
+
+.sidebar .card.active {
+    background: var(--neutral--clr-700);
 }
 
 /* ------------------------------- Scrollbars ------------------------------- */
