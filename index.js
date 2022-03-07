@@ -14,7 +14,6 @@ Array.from(sidebarList).map((list) => {
 
     Array.from(cards).map((card) => {
         card.addEventListener("click", () => {
-            console.log("HIIII");
             var current = document.getElementsByClassName("card active");
 
             // If there's no active class
