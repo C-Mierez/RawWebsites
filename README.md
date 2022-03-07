@@ -5,4 +5,4 @@
 ## Sidebar Website
 First one of the bunch, trying to make my own Sidebar with animations using only HTML and CSS.
 
-Using _Youtube Studio_ layout and animations as reference. 
+Using [Youtube Studio](https://studio.youtube.com/) layout and animations as reference. 
