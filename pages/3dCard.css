@@ -1,0 +1,191 @@
+main {
+    --color-white: #edf2f4;
+    --color-black: #0c131a;
+    --color-blue: #122030;
+    --color-cyan: #1effbc;
+    --color-purple: #9067c6;
+
+    display: grid;
+    place-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+
+    background: linear-gradient(130deg, #0c131a, #122030);
+    color: var(--color-white);
+}
+
+pre {
+    --rotateY: 0deg;
+    --rotateX: 0deg;
+
+    position: relative;
+
+    font-size: 3rem;
+    font-weight: bold;
+
+    padding: 2rem;
+    border-radius: 1rem;
+
+    background-color: var(--color-black);
+
+    transform-style: preserve-3d;
+    transform: perspective(3000px) rotateY(var(--rotateY))
+        rotateX(var(--rotateX));
+}
+
+.selector {
+    color: var(--color-cyan);
+}
+
+.property {
+    color: var(--color-purple);
+}
+
+.punctuation {
+    color: var(--color-white);
+}
+
+.property + .punctuation {
+    color: var(--color-purple);
+}
+
+pre > * {
+    text-shadow: 0 0 0.2em currentColor;
+}
+
+pre::before,
+pre::after {
+    content: " ";
+
+    position: absolute;
+
+    border-radius: inherit;
+}
+
+pre:before {
+    inset: 0.3rem;
+
+    background: var(--color-blue);
+    filter: blur(0.5rem);
+    opacity: 0.5;
+
+    transform: translateZ(-0.65em);
+}
+
+pre::after {
+    inset: -1rem;
+    background: linear-gradient(130deg, var(--color-cyan), var(--color-purple));
+
+    transform: translateZ(-0.7em);
+}
+
+.pre-container {
+    position: relative;
+
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.secondPre {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+
+    transition: transform 300ms ease;
+}
+
+.pre-container > div {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+}
+
+.pre-container > div:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.pre-container > div:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.pre-container > div:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.pre-container > div:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.pre-container > div:nth-child(5) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.pre-container > div:nth-child(6) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.pre-container > div:nth-child(7) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.pre-container > div:nth-child(8) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.pre-container > div:nth-child(9) {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.pre-container > div:nth-child(1):hover ~ .secondPre {
+    --rotateY: -25deg;
+    --rotateX: 25deg;
+}
+
+.pre-container > div:nth-child(2):hover ~ .secondPre {
+    --rotateY: 0deg;
+    --rotateX: 25deg;
+}
+
+.pre-container > div:nth-child(3):hover ~ .secondPre {
+    --rotateY: 25deg;
+    --rotateX: 25deg;
+}
+
+.pre-container > div:nth-child(4):hover ~ .secondPre {
+    --rotateY: -25deg;
+    --rotateX: 0deg;
+}
+
+.pre-container > div:nth-child(5):hover ~ .secondPre {
+    --rotateY: 0deg;
+    --rotateX: 0deg;
+}
+
+.pre-container > div:nth-child(6):hover ~ .secondPre {
+    --rotateY: 25deg;
+    --rotateX: 0deg;
+}
+
+.pre-container > div:nth-child(7):hover ~ .secondPre {
+    --rotateY: -25deg;
+    --rotateX: -25deg;
+}
+
+.pre-container > div:nth-child(8):hover ~ .secondPre {
+    --rotateY: 0deg;
+    --rotateX: -25deg;
+}
+
+.pre-container > div:nth-child(9):hover ~ .secondPre {
+    --rotateY: 25deg;
+    --rotateX: -25deg;
+}
